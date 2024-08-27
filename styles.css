@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    /* border: 0.063rem solid black; */
+    margin-left: 1vw;
+    height: 21vh;
+}
+
+.top h1 {
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+.top h3 {
+    font-family: cursive, arial;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    margin-left: 4.8vw;
+    font-size: 2.5vh;
+}
+
+li a:hover {
+    background-color: #111111;
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgba(4, 2, 26, 0.952);
+    color: white;
+
+}
+
+form {
+    margin-top: 1vh;
+    margin-left: 14vw;
+    font-size: 1.7vw;
+}
+
+input {
+    margin-bottom: 1.5vh;
+}
+
+#questions {
+    margin-left: 3vw;
+    font-size: 2.1vw;
+    width: 95.7vw;
+    /* align-items: center; */
+    /* text-align: start; */
+}
+
+#questions h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.top {
+    text-align: center;
+}
+
+hr {
+    width: 94vw;
+}
+
+.btn {
+    padding: 1.25rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 41.25vw;
+    margin-top: 5vh;
+    border: 0.188rem solid white;
+    border-radius: 0.938rem;
+}
+
+.btn:hover {
+    background-color: #333333;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 13vh;
+    font-size: 3vh;
+}
+
+/* Reveal answer styling*/
+.answer1, .answer2, .answer3, .answer4, .answer5, .answer6, .answer7, .answer8, .answer9, .answer10, .answer11, .answer12, .answer13, .answer14, .answer15, .answer16, .answer17, .answer18, .answer19, .answer20, .answer21, .answer22, .answer23, .answer24, .answer25, .answer26, .answer27, .answer28, .answer29, .answer30, .answer31, .answer32, .answer33, .answer34, .answer35, .answer36, .answer37, .answer38, .answer39, .answer40 {
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: center;
+}
+
+.answer1-btn, .answer2-btn, .answer3-btn, .answer4-btn, .answer5-btn, .answer6-btn, .answer7-btn, .answer8-btn, .answer9-btn, .answer10-btn, .answer11-btn, .answer12-btn, .answer13-btn, .answer14-btn, .answer15-btn, .answer16-btn, .answer17-btn, .answer18-btn, .answer19-btn, .answer20-btn, .answer21-btn, .answer22-btn, .answer23-btn, .answer24-btn, .answer25-btn, .answer26-btn, .answer27-btn, .answer28-btn, .answer29-btn, .answer30-btn, .answer31-btn, .answer32-btn, .answer33-btn, .answer34-btn, .answer35-btn, .answer36-btn, .answer37-btn, .answer38-btn, .answer39-btn, .answer40-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.answer1-txt, .answer2-txt, .answer3-txt, .answer4-txt, .answer5-txt, .answer6-txt, .answer7-txt, .answer8-txt, .answer9-txt, .answer10-txt, .answer11-txt, .answer12-txt, .answer13-txt, .answer14-txt, .answer15-txt, .answer16-txt, .answer17-txt, .answer18-txt, .answer19-txt, .answer20-txt, .answer21-txt, .answer22-txt, .answer23-txt, .answer24-txt, .answer25-txt, .answer26-txt, .answer27-txt, .answer28-txt, .answer29-txt, .answer30-txt, .answer31-txt, .answer32-txt, .answer33-txt, .answer34-txt, .answer35-txt, .answer36-txt, .answer37-txt, .answer38-txt, .answer39-txt, .answer40-txt {
+    display: none;
+    padding: 10px 20px;
+}
+
+.change1, .change2, .change3, .change4, .change5, .change6, .change7, .change8, .change9, .change10, .change11, .change12, .change13, .change14, .change15, .change16, .change17, .change18, .change19, .change20, .change21, .change22, .change24, .change25, .change26, .change27, .change28, .change29, .change30, .change31, .change32, .change33, .change34, .change35, .change36, .change37, .change38, .change39, .change40 {
+    display: inline-block;
+}

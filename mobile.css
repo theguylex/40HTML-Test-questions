@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: none;
+}
+
+form {
+    margin-left: 0.2vw;
+    font-size: 2vw;
+}
+
+footer {
+    margin-top: 4.5vh;
+}
