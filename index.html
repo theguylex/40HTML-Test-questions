@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/tablet.css" media="(max-width:1100px)">
     <link rel="stylesheet" href="/mobile.css" media="(max-width:500px)">
     <title>Vephla HTML Test</title>
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class="top">
@@ -18,16 +20,22 @@
     </div> <br>
     
 
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#ui/ux">UI/UX</a></li>
-      <li><a href="#frontend">Frontend</a></li>
-      <li><a href="#backend">Backend</a></li>
-      <li><a href="#cloud">Cloud</a></li>
-      <li><a href="#data-analysis">Data Analysis</a></li>
-      <li><a href="#product-management">Product Management</a></li>
-      <li><a href="#project-management">Project Management</a></li>
-    </ul>
+    <div class="nav">
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ui/ux">UI/UX</a></li>
+                <li><a href="#frontend">Frontend</a></li>
+                <li><a href="#backend">Backend</a></li>
+                <li><a href="#cloud">Cloud</a></li>
+                <li><a href="#data-analysis">Data Analysis</a></li>
+                <li><a href="#product-management">Product Management</a></li>
+                <li><a href="#project-management">Project Management</a></li>
+            </ul>
+        </div>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </div>
     <br>
     <div id="questions">
         <h2>QUESTIONS</h2>
@@ -667,5 +675,6 @@
         Vephla Institute &copy; 2024. All Rights Reserved.
     </footer>
     <script src="eventListener.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

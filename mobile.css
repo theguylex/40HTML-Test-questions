@@ -4,8 +4,68 @@
     box-sizing: border-box;
 }
 
-ul {
-    display: none;
+body {
+    overflow-x: hidden;
+}
+
+img {
+    /* border: 0.063rem solid black; */
+    margin-left: 1vw;
+    height: 15vh;
+}
+
+#menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    top: 45%;
+    left: -100%;
+    width: 90%;
+    padding: 1rem 3%;
+    background-color: rgba(0, 0, 0, .8);
+    transition: all .8s ease;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul li {
+    margin: 0px 1px;
+}
+
+.navbar ul li a {
+    line-height: 1px;
+    padding: 12px 50px;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: black;
+}
+
+.navbar.open {
+    left: 0%;
+}
+
+.navbar .active {
+    display: block;
+}
+
+input {
+    margin-bottom: 1.5vh;
+}
+
+footer {
+    margin-top: 4vh;
+    font-size: 2.5vw;
 }
 
 form {
